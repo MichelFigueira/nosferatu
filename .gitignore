@@ -1,0 +1,64 @@
+# Node modules (Angular)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Angular build output
+dist/
+build/
+out-tsc/
+.tmp/
+.angular/
+
+# Environment files
+src/environments/environment*.ts
+
+# Models
+backend/app/model
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Python environment and files
+venv/
+env/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.db
+
+# Flask specific
+instance/
+*.log
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyCharm
+.pytest_cache/
+*.idea/
+
+# Logs
+*.log
+
+# Miscellaneous
+.DS_Store
+*.tgz
+*.gz
+*.zip
+*.rar
+
+# OS specific
+Thumbs.db
+Desktop.ini
